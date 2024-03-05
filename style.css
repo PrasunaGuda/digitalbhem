@@ -1,0 +1,86 @@
+* {
+    margin: 10px; /* Create a 10px margin around all elements */
+    padding: 0; /* Remove padding to ensure content doesn't have extra space */
+    box-sizing: border-box; /* Include padding and borders in element size calculations */
+    font-family: 'Poppins'; /* Set the default font to 'Poppins' */
+}
+
+/* Style for the main container of the webpage */
+.wrapper {
+    display: flex; /* Use flexible layout */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Style for the title section */
+.title {
+    font-family: Poppins; /* Use the 'Poppins' font family */
+    font-size: 60px; /* Set the font size to 60 pixels */
+    font-weight: bold; /* Make the text bold */
+    color: #edf1f4(72, 91, 199); /* Set the text color */
+}
+
+/* Style for the entire body of the webpage */
+body {
+    width: 100%; /* Occupy the full width of the viewport */
+    height: 100vh; /* Occupy the full height of the viewport */
+    display: flex; /* Use flexible layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background: #edf1f4; /* Set the background color */
+}
+
+/* Style for the calculator container */
+.calculator {
+    border-radius: 20px; /* Round the corners of the calculator */
+    padding: 20px; /* Add internal padding */
+    background: rgba(0, 0, 0, 0.351); /* Make the background black */
+    box-shadow: 15px 15px 20px rgba(228, 8, 8, 0.892), -15px -15px 20px #fffb; /* Add a subtle shadow effect */
+    backdrop-filter: blur(8px); /* Apply a blur effect to the background */
+}
+
+/* Style for the input box */
+input {
+    width: 320px; /* Set the width of the input box */
+    border: red; /* Remove the border */
+    padding: 24px; /* Add internal padding */
+    margin: 10px; /* Create spacing around the input box */
+    background: transparent; /* Make the background transparent */
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1); /* Add a subtle shadow effect */
+    font-size: 40px; /* Set the font size */
+    text-align: right; /* Align text to the right */
+    cursor: pointer; /* Show a pointer cursor */
+    color: rgb(72, 91, 199); /* Set the text color */
+}
+
+/* Style for the placeholder text in the input box */
+input::placeholder {
+    color: rgb(234, 82, 11); /* Set the placeholder text color */
+}
+
+/* Style for the calculator buttons */
+button {
+    border: black; /* Remove the border */
+    width: 60px; /* Set the button width */
+    height: 60px; /* Set the button height */
+    margin: 10px; /* Create spacing around the buttons */
+    border-radius: 50%; /* Make the buttons circular */
+    background: rgb(86, 43, 226); /* Make the background transparent */
+    color: rgb(199, 72, 108); /* Set the button text color */
+    font-size: 20px; /* Set the font size */
+    font-weight: lighter; /* Make the text slightly lighter */
+    box-shadow: 7px 15px 20px rgba(0, 0, 0, 0.03), -4px -4px 18px #fffb; /* Add a shadow effect */
+    cursor: pointer; /* Show a pointer cursor */
+}
+
+/* Style for the equals button */
+.equalBtn {
+    background-color: rgba(255, 179, 80, 0.311); /* Set a background color for the equals button */
+}
+
+/* Style for the operator buttons (+, -, *, /) */
+.operator {
+    color: rgb(199, 72, 72); /* Set the text color for operator buttons */
+    font-weight: 500; /* Make the text slightly bolder */
+    background-color: rgba(238, 162, 160, 0.204); /* Set a background color for operator buttons */
+}
